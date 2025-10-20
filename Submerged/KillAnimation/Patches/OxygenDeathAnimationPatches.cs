@@ -9,6 +9,7 @@ namespace Submerged.KillAnimation.Patches;
 [HarmonyPatch]
 public static class OxygenDeathAnimationPatches
 {
+    private static OxygenDeathAnimation field;
     private static OxygenDeathAnimation OxygenDeath
     {
         get
